@@ -1,0 +1,17 @@
+create database evaluacionVA;
+use evaluacionVA;
+
+create table birdCategory(
+id int unsigned not null auto_increment,
+name varchar(50) not null,
+PRIMARY KEY (id)
+)ENGINE=InnoDB;
+
+insert into birdCategory (name)
+value
+('acuáticas'),
+('de rapiña'),
+('cantoras'),
+('no voladoras');
+
+select *from birdCategory
